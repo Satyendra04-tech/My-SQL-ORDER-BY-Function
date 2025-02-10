@@ -52,4 +52,4 @@ ORDER BY store_id DESC, first_name ASC;
 ```  
 Note = We haven't selected store_id in SELECT statement but still the code will work same.  
 
-## That's it for the WHERE functions, see you in the next chapter !!
+## That's it for the ORDER BY functions, see you in the next chapter !!
