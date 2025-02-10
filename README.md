@@ -25,7 +25,7 @@ If we do not use ASC/DESC then SQL will take ascending as default.
 
 ## Examples  
 
-### Suppos we have a table T1 which has columns named store_id, first_name, last_name.  
+### Suppose we have a table T1 which has columns named store_id, first_name, last_name.  
 
 1. Sort the table T1 in ascending first_name.
 ```
@@ -47,7 +47,7 @@ ORDER BY store_id DESC, first_name ASC;
 
 4. Sort the table T1 in descending store_id followed by ascending first_name.
 ```
-SELECT store_id, first_name FROM T1
+SELECT first_name FROM T1
 ORDER BY store_id DESC, first_name ASC;
 ```  
 Note = We haven't selected store_id in SELECT statement but still the code will work same.  
